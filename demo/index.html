@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Evil CSS Gram</title>
+		<link href="./css/bootstrap.min.css" rel="stylesheet">
+		<link href="../evil-css-gram.css" rel="stylesheet">
+
+
+		<link rel="canonical" href="http://www.thecssking.com/EvilCSSGram/demo" />
+		<meta charset="utf-8" /> 
+		<meta name="description" content="A tiny library for recreating Instagram filters from a hell dimension." />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Open Graph tags -->
+		<meta property="og:title" content="Evil CSS Gram" />
+		<meta property="og:description" content="A tiny library for recreating Instagram filters from a hell dimension." />
+		<meta property="og:url" content="http://www.thecssking.com/EvilCSSGram/demo" />
+		<meta property="og:image" content="./img/EvilGrams.jpg" />
+
+		<!-- No need to duplicate OG tags - twitter will check for them (https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started.html) -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:creator" content="@TheCSSKing" />
+
+		<style>
+			body {
+				padding: 45px;
+				color: #222;
+				text-align: center;
+			}
+
+			.evil-text {
+				background: linear-gradient(to right, #9c9cc7, #dc5353 90%);
+				text-transform: uppercase;
+				font-weight: bold;
+				display: inline-block;
+				padding: 0 10px;
+				border-radius: 4px;
+				color: black;
+			}
+
+			#thumbnails {
+				padding: 24px 12px;
+			    border: 1px solid #a5a5a5;
+			    border-radius: 4px;
+			    margin: 0px;
+			}
+
+			#thumbnails img {
+				border-radius: 4px;
+				cursor: pointer;
+			}
+
+			figure {
+				position: relative;
+			}
+
+			figcaption {
+				position: absolute;
+				background-color: black;
+				color: white;
+				bottom: 1em;
+				padding: 5px 10px;
+				font-size: 1.2em;
+			}
+
+			@media (max-width: 768px) and (min-width: 576px){
+				#thumbnails {
+					padding: 12px 6px;
+				}
+				#thumbnails h4 {
+					font-size: 1.2rem;
+					margin-bottom: 1.2rem;
+				}
+				figcaption {
+					font-size: .8em;
+					padding: 4px 8px;
+				}
+			}
+		</style>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-55527133-6"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-55527133-6');
+		</script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-sm">
+					<h1><div class="evil-text scar-tissue">Evil</div> CSS-Gram</h1>
+					<h4 class="font-weight-light">A tiny library for recreating Instagram filters from a hell-dimension</h4>
+					<h6 class="text-muted font-weight-light">(with apologies to <a href="https://una.im/CSSgram/">CSS-Gram</a>)</h6>
+				</div>
+			</div>
+			<div class="row mb-5">
+				<div class="col-sm">
+					<p><strong>Usage:</strong> Include the library on your page, then add tags directly to <code>img</code> elements.&nbsp; <a href="#">More Details</a>. &nbsp;<a href="#">Download</a>.</p>
+				</div>
+			</div>
+			<div class="row mb-5" id="thumbnails">
+				<div class="col-sm-12">
+					<h4 class="text-left font-weight-light mb-4">Click a thumbnail to change the example image</h4>
+				</div>
+				<div class="col-sm-2 col-6 mb-4 mb-sm-0">
+					<img class="img-fluid" src="./img/nature.jpg">
+				</div>
+				<div class="col-sm-2 col-6 mb-4 mb-sm-0">
+					<img class="img-fluid" src="./img/urban.jpg">
+				</div>				
+				<div class="col-sm-2 col-6">
+					<img class="img-fluid" src="./img/kitten.jpg">
+				</div>
+				<div class="col-sm-2 col-6 d-none d-sm-block">
+					<img class="img-fluid" src="./img/koala.jpg">
+				</div>
+				<div class="col-sm-2 col-6 d-none d-sm-block">
+					<img class="img-fluid" src="./img/wedding.jpg">
+				</div>
+				<div class="col-sm-2 col-6">
+					<img class="img-fluid" src="./img/seductive.jpg">
+				</div>
+			</div>
+
+			<div class="row mb-3 mb-sm-2 mb-md-4">
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid" src="./img/nature.jpg">
+						<figcaption>Original</figcaption>
+					</figure>
+				</div>
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid _1984" src="./img/nature.jpg">
+						<figcaption>_1984</figcaption>
+					</figure>
+				</div>
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid black-mass" src="./img/nature.jpg">
+						<figcaption>black-mass</figcaption>
+					</figure>
+				</div>
+			</div>
+			<div class="row mb-3 mb-sm-2 mb-md-4">
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid inferno" src="./img/nature.jpg">
+						<figcaption>inferno</figcaption>
+					</figure>
+				</div>
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid blood-moon" src="./img/nature.jpg">
+						<figcaption>blood-moon</figcaption>
+					</figure>
+				</div>
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid blood-blood" src="./img/nature.jpg">
+						<figcaption>blood-blood</figcaption>
+					</figure>
+				</div>
+			</div>
+			<div class="row mb-3 mb-sm-2 mb-md-4">
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid sunburn" src="./img/nature.jpg">
+						<figcaption>sunburn</figcaption>
+					</figure>
+				</div>
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid drought" src="./img/nature.jpg">
+						<figcaption>drought</figcaption>
+					</figure>
+				</div>
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid children-of-the-corn" src="./img/nature.jpg">
+						<figcaption>children-of-the-corn</figcaption>
+					</figure>
+				</div>
+			</div>
+			<div class="row mb-3 mb-sm-2 mb-md-4">
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid purgatory" src="./img/nature.jpg">
+						<figcaption>purgatory</figcaption>
+					</figure>
+				</div>
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid heaven" src="./img/nature.jpg">
+						<figcaption>heaven</figcaption>
+					</figure>
+				</div>
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid hell" src="./img/nature.jpg">
+						<figcaption>hell</figcaption>
+					</figure>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid demons" src="./img/nature.jpg">
+						<figcaption>demons</figcaption>
+					</figure>
+				</div>
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid jaundice" src="./img/nature.jpg">
+						<figcaption>jaundice</figcaption>
+					</figure>
+				</div>
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid scar-tissue" src="./img/nature.jpg">
+						<figcaption>scar-tissue</figcaption>
+					</figure>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<figure>
+						<img class="img-fluid self-immolation" src="./img/nature.jpg">
+						<figcaption>self-immolation</figcaption>
+					</figure>
+				</div>
+				<div class="col-sm-4">
+					<figure>
+						<img class="img-fluid heart-of-man" src="./img/nature.jpg">
+						<figcaption>heart-of-man</figcaption>
+					</figure>
+				</div>
+				<div class="col-sm-4">
+					<figure>
+						<img class="img-fluid nightmare" src="./img/nature.jpg">
+						<figcaption>nightmare</figcaption>
+					</figure>
+				</div>
+			</div>
+			<div class="row mb-3 mb-sm-2 mb-md-4">
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid exorcist" src="./img/nature.jpg">
+						<figcaption>exorcist</figcaption>
+					</figure>
+				</div>
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid texas-chainsaw-massacre" src="./img/nature.jpg">
+						<figcaption>texas-chainsaw-massacre</figcaption>
+					</figure>
+				</div>
+				<div class="col-sm">
+					<figure>
+						<img class="img-fluid nosferatu" src="./img/nature.jpg">
+						<figcaption>nosferatu</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+
+		<p class="">Built by <a href="#">The CSS King</a>, long may he reign.</p>
+
+		<script>
+			function setExampleImages(newPath){
+				var figures = document.getElementsByTagName('figure');
+
+				for(var j=0;j<figures.length;j++){
+					var fig = figures[j];
+					var images = figures[j].getElementsByTagName('img');
+					var image = images[0];
+					image.src = newPath;
+				}
+			}
+
+			var thumbs = document.getElementById('thumbnails').getElementsByTagName('img');
+
+			// thumbs is an HTMLCollection, not array
+			for(var i=0;i<thumbs.length;i++){
+				thumbs[i].addEventListener('click', function(event){
+					setExampleImages(event.target.src);
+				});
+			}
+		</script>
+
+	</body>
+</html>
