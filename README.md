@@ -2,7 +2,7 @@
 
 A tiny library for recreating Instagram filters from a hell-dimension (with apologies to [CSS-Gram](https://una.im/CSSgram/)).
 
-[View The Demo](http://www.thecssking.com/EvilCSSGram/demo/index.html) or [Download](https://github.com/TheCSSKing/EvilCSSGram/releases/download/1.0/evil-css-gram.css)
+[View The Demo](http://www.thecssking.com/EvilCSSGram/) or [Download](https://github.com/TheCSSKing/EvilCSSGram/releases/download/1.0/evil-css-gram.css)
 
 ## Usage Instructions
 
