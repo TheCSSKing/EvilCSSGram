@@ -7,7 +7,7 @@ A tiny library for recreating Instagram filters from a hell-dimension (with apol
 ## Usage Instructions
 
 1.  [Download](https://github.com/TheCSSKing/EvilCSSGram/releases/download/1.0/evil-css-gram.css) the most recent version of the library and add it to your page.
-2.  Attach desired filter class to the image as a class.  View [the demo site](http://www.thecssking.com/EvilCSSGram/demo/index.html) to see available filters.
+2.  Attach desired filter class to the image as a class.  View [the demo site](http://www.thecssking.com/EvilCSSGram/) to see available filters.
 3.  (Optional) Bathe computer in holy water.
 
 The CSS Filter property applies to all children - so you can also attach the filter class to a containing div or figure element.  For extra fun, try putting an evil filter on the body element.  
